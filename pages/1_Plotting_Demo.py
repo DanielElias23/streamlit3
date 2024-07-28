@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 import numpy as np
-import login as login
+import login
 
 st.header('Página :orange[principal]')
 login.generarLogin()
