@@ -3,12 +3,7 @@ import pandas as pd
 import altair as alt
 from urllib.error import URLError
 
-import login as login
 
-st.header('Página :orange[principal]')
-login.generarLogin()
-if 'usuario' in st.session_state:
-    st.subheader('Información página principal')
 
 st.set_page_config(page_title="DataFrame Demo", page_icon="📊")
 

@@ -2,12 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from urllib.error import URLError
-import login as login
 
-st.header('Página :orange[principal]')
-login.generarLogin()
-if 'usuario' in st.session_state:
-    st.subheader('Información página principal')
 
 
 st.set_page_config(page_title="Mapping Demo", page_icon="🌍")
