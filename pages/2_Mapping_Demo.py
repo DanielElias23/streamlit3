@@ -2,15 +2,16 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from urllib.error import URLError
+
+
+
+st.set_page_config(page_title="Mapping Demo", page_icon="🌍")
 import login
 
 login.generarLogin()
 if 'usuario' in st.session_state:
     st.header('Página :blue[1]')
-
-
-st.set_page_config(page_title="Mapping Demo", page_icon="🌍")
-
+    
 st.markdown("# Mapping Demo")
 st.sidebar.header("Mapping Demo")
 st.write(

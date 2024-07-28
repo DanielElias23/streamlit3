@@ -1,13 +1,15 @@
 import streamlit as st
 import time
 import numpy as np
+
+    
+st.set_page_config(page_title="Plotting Demo", page_icon="📈")
+
 import login
 
 login.generarLogin()
 if 'usuario' in st.session_state:
     st.header('Página :blue[1]')
-    
-st.set_page_config(page_title="Plotting Demo", page_icon="📈")
 
 st.markdown("# Plotting Demo")
 st.sidebar.header("Plotting Demo")
