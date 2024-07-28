@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 from urllib.error import URLError
-import login
+import login as login
 
 st.header('Página :orange[principal]')
 login.generarLogin()

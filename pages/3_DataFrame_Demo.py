@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 from urllib.error import URLError
 
-import login
+import login as login
 
 st.header('Página :orange[principal]')
 login.generarLogin()
